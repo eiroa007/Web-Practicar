@@ -1,0 +1,91 @@
+:root {
+  --primary: #111111;
+  --secondary: #c4c4c4;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary);
+}
+
+nav > ul {
+  border: 4px;
+  height: 100px;
+  width: auto;
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+nav img {
+  height: 40px;
+  width: auto;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: first baseline;
+  justify-content: center;
+  gap: 15px;
+}
+header > img {
+  width: 10px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  text-align: center;
+}
+ul img {
+  width: 200px;
+}
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 55%;
+}
+
+.musica {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cancion {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.publico {
+  display: flex;
+  border: 4px solid crimson;
+  height: 300px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
